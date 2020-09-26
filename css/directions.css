@@ -1,0 +1,79 @@
+.centered{
+    text-align: center;
+}
+
+#directions-2{
+    margin-bottom: 30px;
+}
+
+
+
+.card{
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #0B2349 10%, #0D61BC 66%, #8AA9D6);
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 220px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.big-card{
+    align-items: center;
+    justify-content: center;
+    background: rgba(99, 99, 99, 1);
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    height: 250px;
+}
+
+.big-card h2{
+    color: white;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card h2{
+    color: white;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.mtli_pdf {
+    background-image: url(../images/pdf-icon-24x24.png);
+} 
+
+.gradient{
+    font-family: 'Rubik One', sans-serif;
+    font-size: 50px;
+    /*text-transform: uppercase;*/
+    background: linear-gradient(45deg, #0B2349 10%, #0D61BC 66%, #8AA9D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+}
+
+@media screen and (max-width: 1199px){
+    .card h2{
+        padding-top: 30px;
+        
+    }
+
+    .big-card h2{
+        padding-top: 30px;
+    }
+
+    .big-card{
+        height: 320px;
+        margin: 20px;
+    }
+
+    .card{
+        margin: 20px;
+        height: 250px;
+    }
+}

@@ -1,0 +1,21 @@
+.priem-na{
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+                0 10px 10px rgba(0,0,0,0.22);
+    background: rgb(229, 229, 229);
+    height: auto;
+    padding: 10px; 
+    padding-bottom: 50px;
+}
+
+.priem-na p{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+
+.priem-na{
+    background: linear-gradient(45deg, #0B2349 10%, #0D61BC 66%, #8AA9D6);
+}

@@ -1,0 +1,39 @@
+.logo h4{
+    width: 50%;
+    font-size: 20px;
+    text-align: left !important;
+    text-transform: uppercase;
+}
+
+.logo img{
+    width: 40%;
+    height: auto;
+    margin: 50px;
+    text-align: left !important;
+}
+
+#information{
+    margin-top: 50px;
+}
+
+#information p{
+    font-size: 21px;
+}
+.card h4{
+    font-size: 18px !important;
+}   
+
+.card p{
+    font-size: 14px !important;
+}
+
+#information .txt-info{
+    background: linear-gradient(45deg, #0B2349 10%, #0D61BC 25%, #8AA9D6);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+                0 10px 10px rgba(0,0,0,0.22);
+}
+
+#information .txt-info p{
+    padding: 15px;
+    color: white !important;
+}
